@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <title>Matthieu Photography</title>
+</head>
+<body id="content">
+    <section class="top">
+        <nav>
+            <div class="navbar">
+                <h1>Ma. Photography</h1>
+                <div class="link">
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#about">About me</a>
+                    <a href="#contacts">Contacts</a>
+                </div>
+            </div>
+        </nav>
+        <div class="main_title">
+            <h2 id="title_h2">Capture the world's beauty through the lens.</h2>
+        </div>
+    </section>
+    <section id="about">
+        <div class="about_me">
+            <h3>About me.</h3>
+            <div class="about_p">
+                <p>Welcome to my world of visual storytelling through the lens! I'm Matthieu Audo, a passionate photographer who finds inspiration in every corner of life. With a camera in hand and an eye for detail, I strive to capture the beauty and emotions that often go unnoticed. <br>
+                Photography has been my lifelong passion, and I've had the privilege of exploring various genres, from landscape to street and wildlife photography. My journey began when I picked up my first camera as a teenager, and since then, I've been on an incredible adventure of discovery, learning, and creativity.</p>
+                <div class="about_img">
+                    <img src="images/me.jpg" alt="Image of me">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio" class="projets">
+        <h3>Portfolio.</h3>
+        <ul class="gallery">
+            <li class="gallery_item"><img class="img_slider" src="./images/projet-photo/img1.jpg" alt="image1"></li>
+            <li class="gallery_item"><img class="img_slider" src="./images/projet-photo/img2.jpg" alt="image2"></li>
+            <li class="gallery_item"><img class="img_slider" src="./images/projet-photo/img3.jpg" alt="image3"></li>
+            <li class="gallery_item"><img class="img_slider" src="./images/projet-photo/img4.jpg" alt="image4"></li>
+            <li class="gallery_item"><img class="img_slider" src="./images/projet-photo/img5.jpg" alt="image5"></li>
+            <li class="gallery_item"><img class="img_slider" src="./images/projet-photo/img6.jpg" alt="image6"></li>
+            <li class="gallery_item"><img class="img_slider" src="./images/projet-photo/img7.jpg" alt="image7"></li>
+            <li class="gallery_item"><img class="img_slider" src="./images/projet-photo/img8.jpg" alt="image8"></li>
+            <li class="gallery_item"><img class="img_slider" src="./images/projet-photo/img9.jpg" alt="image9"></li>
+            <li class="gallery_item"><img class="img_slider" src="./images/projet-photo/img10.jpg" alt="image10"></li>
+            <li class="gallery_item"><img class="img_slider" src="./images/projet-photo/img11.jpg" alt="image11"></li>
+        </ul>
+    </section>
+    <div id="full_view">
+        <button class="btn_popup btn_prev"><i class="uil uil-angle-left-b"></i></button>
+        <img id="full_img" src="">
+        <button class="btn_popup btn_close"><i class="uil uil-x"></i></button>
+        <button class="btn_popup btn_next"><i class="uil uil-angle-right-b"></i></button>
+    </div>
+    <hr>
+    <footer>
+        <h4>Let's talk about your next project.</h4>
+        <div id="contacts">
+            <a href="https://www.facebook.com/" target="_blank"><i class="uil uil-facebook"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="uil uil-instagram"></i></a>
+        </div>
+        <hr>
+        <div class="rr">
+            <button id="scroll_button"><i class="uil uil-angle-double-up"></i></button>
+            <p>All Rights Reserved &copy 2023 Ma. Photography</p>
+        </div>
+    </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
